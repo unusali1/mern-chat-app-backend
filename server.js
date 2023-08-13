@@ -102,5 +102,5 @@ app.get('/rooms', (req, res)=> {
 
 
 server.listen(PORT, ()=> {
-  console.log('listening to port', PORT)
+  console.log('listening to port http://localhost:4000', PORT)
 })
