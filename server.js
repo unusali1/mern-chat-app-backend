@@ -100,6 +100,11 @@ app.get('/rooms', (req, res)=> {
   res.json(rooms)
 })
 
+app.get("/", (req, res) => {
+	res.send("Welcome to Chat app backend");
+});
+
+
 
 server.listen(PORT, ()=> {
   console.log('listening to port http://localhost:4000', PORT)
